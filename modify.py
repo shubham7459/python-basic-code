@@ -1,0 +1,6 @@
+l = (1,2,3,4,5)
+print(l)
+t = list(l)
+t.append(6)
+print(t)  
+print(tuple(t))    
