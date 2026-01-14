@@ -1,4 +1,5 @@
-num1 = 50 
-num2 = 270 
-sum_result = num1 + num2 
-print(f"The sum of {num1} and {num2} is: {sum_result}") 
+x = [1,2,3,4,5]
+print(x[0])
+print(x[-1])
+print(len(x))
+print(sum(x))
