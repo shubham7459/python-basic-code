@@ -1,5 +1,4 @@
-x = [1,2,3,4,5]
-print(x[0])
-print(x[-1])
-print(len(x))
-print(sum(x))
+fruits = ["apple","banana","cherry"]
+print(fruits.append("orange"))
+print(fruits.insert(2,"lemaon"))
+print(fruits)
