@@ -1,13 +1,8 @@
-class Mobile :
-    def __init__ (self,name,pin):
-        self.name = name
-        self.__pin = pin
-    def verify(self,veri):
-        if(self.__pin == veri):
-            return "verify"
-        else :
-            return "Incorrect"   
+with open (r"C:\Users\hp\OneDrive\Documents\fileData.txt" , "w") as file:
+    file.write("aman ,56 ,lucknow")
+    file.write("shubham ,78,lucknow")
+    file.write("shubham ,78,lucknow")
 
-ak = Mobile("vivo",49)
-print(ak.verify(49))
-print(ak.verify(50))
+
+    
+    
